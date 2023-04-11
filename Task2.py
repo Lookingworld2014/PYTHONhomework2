@@ -9,7 +9,7 @@ for i in range(1, mul+1):
     if mul % i == 0:
         j = mul // i
         if i+j == sum:
-            print(i, j)
+            print(f"Искомые числа {i, j}")
             break
 else:
     print("Это плохие подсказки")
